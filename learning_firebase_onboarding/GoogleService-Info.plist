@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1067734158674-a75fqp6oksnsui6gfps5aoecq4dit29g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1067734158674-a75fqp6oksnsui6gfps5aoecq4dit29g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCa_447m_v-aSKgGZg8xcJtY_Be9aobgns</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1067734158674</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Charlie.learning-firebase-onboarding</string>
+	<key>PROJECT_ID</key>
+	<string>fir-medium-622b2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-medium-622b2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1067734158674:ios:e5a704ae7469e5ebc1fe8b</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-medium-622b2.firebaseio.com</string>
+</dict>
+</plist>

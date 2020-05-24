@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3D3852247AD9CE00F140F7 /* userServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D3851247AD9CE00F140F7 /* userServices.swift */; };
 		9FE60E80247AB287005FA40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE60E7F247AB287005FA40E /* AppDelegate.swift */; };
 		9FE60E82247AB287005FA40E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE60E81247AB287005FA40E /* SceneDelegate.swift */; };
 		9FE60E84247AB287005FA40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE60E83247AB287005FA40E /* ViewController.swift */; };
 		9FE60E87247AB287005FA40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE60E85247AB287005FA40E /* Main.storyboard */; };
 		9FE60E89247AB288005FA40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE60E88247AB288005FA40E /* Assets.xcassets */; };
 		9FE60E8C247AB288005FA40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE60E8A247AB288005FA40E /* LaunchScreen.storyboard */; };
+		9FE60E94247AB541005FA40E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FE60E93247AB541005FA40E /* GoogleService-Info.plist */; };
+		9FECF228247AB6B5006E82E3 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF227247AB6B5006E82E3 /* homeViewController.swift */; };
+		9FECF22A247AB6CA006E82E3 /* Firestoreservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF229247AB6CA006E82E3 /* Firestoreservice.swift */; };
+		9FECF22C247AB82A006E82E3 /* alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF22B247AB82A006E82E3 /* alerts.swift */; };
+		9FECF22E247AB983006E82E3 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF22D247AB983006E82E3 /* loginViewController.swift */; };
+		9FECF230247AB99F006E82E3 /* stripeStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF22F247AB99F006E82E3 /* stripeStartViewController.swift */; };
+		9FECF232247ABAF4006E82E3 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF231247ABAF4006E82E3 /* signUpViewController.swift */; };
+		9FECF234247ABB02006E82E3 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF233247ABB02006E82E3 /* mainViewController.swift */; };
+		9FECF236247AC517006E82E3 /* cloudFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FECF235247AC517006E82E3 /* cloudFunctions.swift */; };
+		BA1209176824CAD6F60F455D /* Pods_learning_firebase_onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B1A90E24557143D6280918 /* Pods_learning_firebase_onboarding.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B1A90E24557143D6280918 /* Pods_learning_firebase_onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learning_firebase_onboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A54EF804043921CC42AF1D0 /* Pods-learning_firebase_onboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learning_firebase_onboarding.debug.xcconfig"; path = "Target Support Files/Pods-learning_firebase_onboarding/Pods-learning_firebase_onboarding.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3D3851247AD9CE00F140F7 /* userServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userServices.swift; sourceTree = "<group>"; };
 		9FE60E7C247AB287005FA40E /* learning_firebase_onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning_firebase_onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE60E7F247AB287005FA40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE60E81247AB287005FA40E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,16 @@
 		9FE60E88247AB288005FA40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FE60E8B247AB288005FA40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE60E8D247AB288005FA40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE60E93247AB541005FA40E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9FECF227247AB6B5006E82E3 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		9FECF229247AB6CA006E82E3 /* Firestoreservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firestoreservice.swift; sourceTree = "<group>"; };
+		9FECF22B247AB82A006E82E3 /* alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alerts.swift; sourceTree = "<group>"; };
+		9FECF22D247AB983006E82E3 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		9FECF22F247AB99F006E82E3 /* stripeStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stripeStartViewController.swift; sourceTree = "<group>"; };
+		9FECF231247ABAF4006E82E3 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		9FECF233247ABB02006E82E3 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		9FECF235247AC517006E82E3 /* cloudFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudFunctions.swift; sourceTree = "<group>"; };
+		D9D96433FE9C06DC5D9BE998 /* Pods-learning_firebase_onboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learning_firebase_onboarding.release.xcconfig"; path = "Target Support Files/Pods-learning_firebase_onboarding/Pods-learning_firebase_onboarding.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1209176824CAD6F60F455D /* Pods_learning_firebase_onboarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		524994060067E8B0813D39BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A54EF804043921CC42AF1D0 /* Pods-learning_firebase_onboarding.debug.xcconfig */,
+				D9D96433FE9C06DC5D9BE998 /* Pods-learning_firebase_onboarding.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66F7CB2D39F7E0F7530D60C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B1A90E24557143D6280918 /* Pods_learning_firebase_onboarding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9FE60E73247AB287005FA40E = {
 			isa = PBXGroup;
 			children = (
 				9FE60E7E247AB287005FA40E /* learning_firebase_onboarding */,
 				9FE60E7D247AB287005FA40E /* Products */,
+				524994060067E8B0813D39BE /* Pods */,
+				66F7CB2D39F7E0F7530D60C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +100,9 @@
 		9FE60E7E247AB287005FA40E /* learning_firebase_onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				9FECF226247AB698006E82E3 /* services */,
+				9FECF225247AB691006E82E3 /* controllers */,
+				9FE60E93247AB541005FA40E /* GoogleService-Info.plist */,
 				9FE60E7F247AB287005FA40E /* AppDelegate.swift */,
 				9FE60E81247AB287005FA40E /* SceneDelegate.swift */,
 				9FE60E83247AB287005FA40E /* ViewController.swift */,
@@ -67,6 +114,29 @@
 			path = learning_firebase_onboarding;
 			sourceTree = "<group>";
 		};
+		9FECF225247AB691006E82E3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FECF227247AB6B5006E82E3 /* homeViewController.swift */,
+				9FECF22D247AB983006E82E3 /* loginViewController.swift */,
+				9FECF22F247AB99F006E82E3 /* stripeStartViewController.swift */,
+				9FECF231247ABAF4006E82E3 /* signUpViewController.swift */,
+				9FECF233247ABB02006E82E3 /* mainViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		9FECF226247AB698006E82E3 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				9FECF229247AB6CA006E82E3 /* Firestoreservice.swift */,
+				9FECF22B247AB82A006E82E3 /* alerts.swift */,
+				9FECF235247AC517006E82E3 /* cloudFunctions.swift */,
+				9F3D3851247AD9CE00F140F7 /* userServices.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FE60E90247AB288005FA40E /* Build configuration list for PBXNativeTarget "learning_firebase_onboarding" */;
 			buildPhases = (
+				5793917B286E0887D97D0726 /* [CP] Check Pods Manifest.lock */,
 				9FE60E78247AB287005FA40E /* Sources */,
 				9FE60E79247AB287005FA40E /* Frameworks */,
 				9FE60E7A247AB287005FA40E /* Resources */,
+				217FD7A6D1C1F7E09F73A185 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +199,72 @@
 			files = (
 				9FE60E8C247AB288005FA40E /* LaunchScreen.storyboard in Resources */,
 				9FE60E89247AB288005FA40E /* Assets.xcassets in Resources */,
+				9FE60E94247AB541005FA40E /* GoogleService-Info.plist in Resources */,
 				9FE60E87247AB287005FA40E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		217FD7A6D1C1F7E09F73A185 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-learning_firebase_onboarding/Pods-learning_firebase_onboarding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-learning_firebase_onboarding/Pods-learning_firebase_onboarding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-learning_firebase_onboarding/Pods-learning_firebase_onboarding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5793917B286E0887D97D0726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-learning_firebase_onboarding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FE60E78247AB287005FA40E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FECF22E247AB983006E82E3 /* loginViewController.swift in Sources */,
 				9FE60E84247AB287005FA40E /* ViewController.swift in Sources */,
 				9FE60E80247AB287005FA40E /* AppDelegate.swift in Sources */,
+				9FECF22C247AB82A006E82E3 /* alerts.swift in Sources */,
+				9F3D3852247AD9CE00F140F7 /* userServices.swift in Sources */,
 				9FE60E82247AB287005FA40E /* SceneDelegate.swift in Sources */,
+				9FECF22A247AB6CA006E82E3 /* Firestoreservice.swift in Sources */,
+				9FECF230247AB99F006E82E3 /* stripeStartViewController.swift in Sources */,
+				9FECF234247ABB02006E82E3 /* mainViewController.swift in Sources */,
+				9FECF228247AB6B5006E82E3 /* homeViewController.swift in Sources */,
+				9FECF236247AC517006E82E3 /* cloudFunctions.swift in Sources */,
+				9FECF232247ABAF4006E82E3 /* signUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		9FE60E91247AB288005FA40E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A54EF804043921CC42AF1D0 /* Pods-learning_firebase_onboarding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +425,7 @@
 		};
 		9FE60E92247AB288005FA40E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D96433FE9C06DC5D9BE998 /* Pods-learning_firebase_onboarding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
